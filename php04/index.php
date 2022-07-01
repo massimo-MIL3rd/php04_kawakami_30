@@ -9,7 +9,7 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 150vh;
     width: auto;
 }
 #currentPosi{
@@ -50,15 +50,23 @@
 } */
 #container{
     position: absolute;
-    height: 740px;
+    height: 800px;
     width: 600px;
     margin: auto;
-    top: 30px;
+    top: 80px;
     left: 0;
     right: 0;
     bottom: 0;
     backdrop-filter: blur(1px);
     box-shadow: 0 0 50px;
+}
+.navbar-header{
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .jumbotron{
     position: absolute;
@@ -148,13 +156,13 @@ a:active {
 </head>
 <body>
 <div id="container">
-<div id="currentPosi"></div>
 <div class="navbar-header">
       <a class="navbar-brand" href="index.php">データ登録 |</a>
       <a class="navbar-brand" href="login.php">データ表示 |</a>
       <a class="navbar-brand" href="login.php">ユーザー登録 |</a>
       <a class="navbar-brand" href="select_user.php">ユーザー表示 |</a>
       </div>
+<div id="currentPosi"></div>
 <div id="input">
 	<input type="text" id="memo">
 	<button id="input_btn">👣</button>
